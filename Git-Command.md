@@ -13,7 +13,7 @@ bool is_auto_generated():
 
 ### Edge case
 ```
-    Revert "Merge branch 'MKT-3452' into 'master'"
+    Revert "Merge branch 'XXX' into 'YYY'"
 
-    This reverts merge request !9652
+    This reverts merge request !1234
 ```
