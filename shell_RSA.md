@@ -53,6 +53,7 @@ FILES
 ```
 
 ### copy your public key to serverB
+There are 3 ways to copy your public key to serverB.
 #### Copying your Public Key Using SSH-Copy-ID
 The easiest way to copy your public key to an existing server is to use a utility called ssh-copy-id. Because of its simplicity, this method is recommended if available.
 
