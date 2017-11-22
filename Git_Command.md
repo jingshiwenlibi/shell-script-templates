@@ -9,9 +9,9 @@ HEAD is the latest commit, and HEAD^ is 2nd latest commit.
 ```
 git reset --soft HEAD
 git reset --soft HEAD^
-git reset --hard HEAD
+git reset --hard HEAD # this could be used to ignore merge conflict.
 ```
-
+git reset --hard HEAD
 
 ## If auto-generated file is really generated automatically? 
 ### Limitation: only check the latest commit for a specific file
