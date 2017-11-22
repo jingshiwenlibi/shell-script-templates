@@ -1,3 +1,18 @@
+### git blame
+-w will ignore whitespaces and -M will detect moved or copied lines.
+```
+git blame -w -M
+```
+
+### git reset
+HEAD is the latest commit, and HEAD^ is 2nd latest commit.
+```
+git reset --soft HEAD
+git reset --soft HEAD^
+git reset --hard HEAD
+```
+
+
 ## If auto-generated file is really generated automatically? 
 ### Limitation: only check the latest commit for a specific file
 
