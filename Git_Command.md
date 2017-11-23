@@ -1,7 +1,7 @@
 ### git blame
 -w will ignore whitespaces and -M will detect moved or copied lines.
 ```
-git blame -w -M
+git blame -w -M abc.cpp | vim -
 ```
 
 ### git reset
