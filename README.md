@@ -10,8 +10,8 @@ Pressing Ctrl+R will open the reverse history search.
 ```
 
 ## Links: Tools
-[json format&check](http://jsoneditoronline.org/)
+* [json format&check](http://jsoneditoronline.org/)
 
-[regular expression check: ruby](http://rubular.com/)
-[regular expression check: python](https://pythex.org/)
+* [regular expression check: ruby](http://rubular.com/)
+* [regular expression check: python](https://pythex.org/)
 Including some cheat sheet.
