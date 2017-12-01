@@ -7,7 +7,7 @@ git log --graph  . | vim -
 git log -3 --author=user-name .
 git log -3 --pretty=format:%h
 ```
-pretty-formats[link](https://git-scm.com/docs/pretty-formats)
+[pretty-formats](https://git-scm.com/docs/pretty-formats)
 * '%h': abbreviated commit hash
 * '%ae': author email
 * '%p': abbreviated parent hashes
