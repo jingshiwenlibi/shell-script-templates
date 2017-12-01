@@ -1,3 +1,37 @@
+
+### git log
+Name: git-log - Show commit logs
+SYNOPSIS: git log [<options>] [<revision range>] [[--] <path>...]
+```
+git log --graph  . | vim -
+git log -3 --author=user-name .
+git log -3 --pretty=format:%h
+```
+pretty-formats[link](https://git-scm.com/docs/pretty-formats)
+* '%h': abbreviated commit hash
+* '%ae': author email
+* '%p': abbreviated parent hashes
+* '%ci': committer date, ISO 8601-like format
+
+Example: check if anyone commits without ticket no. In ~/.zshrc:
+```
+git_test() {
+	local arg=${1:-""}
+	if [ "$arg"x != x ]; then
+		cd $arg
+	fi
+
+	echo "==============================================="
+	echo "Checking date: "`date`
+	echo "==============================================="
+	git log --after='2017-06-01' --before="2030-11-01" --pretty=format:"%s | %ae | %h | %ci" . | grep -v "^Merge \|^Revert \|^git-svn-id" | grep -v "^[ a-zA-Z]\{2,\}[-_]\{1\}[0-9]\{1,\}"
+
+	if [ "$arg"x != x ]; then
+		cd -
+	fi
+}
+```
+
 ### git blame
 -w will ignore whitespaces and -M will detect moved or copied lines.
 ```
