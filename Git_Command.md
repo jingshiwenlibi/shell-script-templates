@@ -9,16 +9,16 @@
 ```
 * EXAMPLES
 ```
-➜  test git archive --remote=git@git.dev.fwmrm.net:ads/tools.git HEAD:ads_metric/utils server_stats2.json | tar -x
+➜  test git archive --remote=git@XXX:YYY/ZZZ.git HEAD:ads_metric/utils abc.json | tar -x
 ➜  test ls
-server_stats2.json
+abc.json
 
 1) get a file in base/WHOLE_PLAYER.log
-git archive --remote=git@git.dev.fwmrm.net:adstest/regression.git HEAD:base WHOLE_PLAYER.log | tar -x
+git archive --remote=git@XXX:YYY/ZZZ.git HEAD:base WHOLE_PLAYER.log | tar -x
 2) get the base directory: 
-git archive --remote=git@git.dev.fwmrm.net:adstest/regression.git HEAD:base | tar -x
+git archive --remote=git@XXX:YYY/ZZZ.git HEAD:base | tar -x
 3) get the base log WHOLE_PLAYER.log in branch V_6_11
-git archive --remote=git@git.dev.fwmrm.net:adstest/regression.git V_6_11:base WHOLE_PLAYER.log | tar -x
+git archive --remote=git@XXX:YYY/ZZZ.git V_6_11:base WHOLE_PLAYER.log | tar -x
 ```
 
 ### git log
