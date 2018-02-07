@@ -1,3 +1,11 @@
+### git add
+* usage:<br/>
+git add [<options>] [--] <pathspec>...
+* SYNOPSIS
+```
+    -u, --update          update tracked files
+```
+
 ### git archive
 * NAME: git-archive - Create an archive of files from a named tree
 * SYNOPSIS
