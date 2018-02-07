@@ -1,6 +1,10 @@
 ### git add
 * NAME: git-add - Add file contents to the index
 * usage: git add [<options>] [--] <pathspec>...
+```
+       This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
+       The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit. Thus after making any changes to the working directory, and before running the commit command, you must use the add command to add any new or modified files to the index.
+```
 * SYNOPSIS
 ```
     -u, --update          update tracked files
