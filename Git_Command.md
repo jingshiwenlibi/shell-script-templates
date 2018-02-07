@@ -1,6 +1,6 @@
 ### git add
-* usage:<br/>
-git add [<options>] [--] <pathspec>...
+* NAME: git-add - Add file contents to the index
+* usage: git add [<options>] [--] <pathspec>...
 * SYNOPSIS
 ```
     -u, --update          update tracked files
